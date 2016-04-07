@@ -352,7 +352,7 @@ static void greentea_notify_completion(const int result) {
  * \brief Send to master greentea-client version
  */
 static void greentea_notify_version() {
-    greentea_send_kv(GREENTEA_TEST_ENV_HOST_TEST_VERSION, YOTTA_GREENTEA_CLIENT_VERSION_STRING);
+    greentea_send_kv(GREENTEA_TEST_ENV_HOST_TEST_VERSION, "1.1.0");
 }
 
 /**
